@@ -1,7 +1,7 @@
 ## Sorting Algorithms
 
 Algorithm | Best | Average | Worst | Key Points
-----------|------|---------|-------|------------
+----------|:------:|:---------:|:-------:|------------
 bucket sort | n | n | n | hash
 heap sort | nlogn | nlogn | nlogn | recursion, binary heap
 insertion sort| n | n^2| n^2 | greedy
