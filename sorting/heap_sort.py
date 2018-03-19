@@ -1,6 +1,5 @@
 def heap_sort(arr):
     def heapify(arr, i, n):
-        if i >= (n // 2): return
         largest, left, right = i, 2*i+1, 2*i+2
         if left < n and arr[left] > arr[largest]: largest = left
         if right < n and arr[right] > arr[largest]: largest = right
